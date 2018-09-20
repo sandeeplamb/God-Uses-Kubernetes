@@ -27,3 +27,19 @@ If you are interested in growth of Kubernetes, here are some facts.
 [Rise Of Kubernetes](https://www.cncf.io/blog/2018/08/29/cncf-survey-use-of-cloud-native-technologies-in-production-has-grown-over-200-percent/)
 
 So just wear a God Hat and lets create a **human-as-a-deployment**.
+
+## Human-Conciousness-Storage
+
+As humans lives-dies-repeat in a cycle and his conciousness of all life is accessible in any life, God must be using some sort of persistance storage.
+
+And this storage must be **retained** after every time human dies, but if want we can access it later or bound it to same human in other life.
+
+Kubernetes have same concept of Storage Class, Persistent Volume and Persistent Volume Claim.
+
+## Human-Environment-Variables
+
+## Human-Secrets
+
+## Human-ConfigMaps
+
+## Human-Deployment
