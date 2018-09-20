@@ -1,14 +1,13 @@
 # God must be using Kubernetes !!
 
-Gods must be using Kubernetes.
+Gods must be using Kubernetes to manage humans birth cycle. God must be Certified-Kubernetes-Admin.
 
-God must be Certified-Kubernetes-Admin.
+Lets Prove
 
-I believe in the concept of re-incarnation.
-
+## What is Reincarnation
 Reincarnation is the philosophical or religious concept that an aspect of a living being starts a new life in a different physical body or form after each biological death.
  
-And in a normal life, you follow some sequence
+And in a normal life cycle, you follow some sequence
 
 1. You born,
 2. You do some tasks in a life (your Karma's)
@@ -20,11 +19,11 @@ And in a normal life, you follow some sequence
 
 I always puzzeled that how busy God might be in order to take care of all these tasks as everyday people dies and re-born.
 
-Not long ago, I learned new technology i.e. Kubernetes an open source Orchestrator for your microservices/containers which was Google project 
+Not long ago, I learned new technology i.e. [Kubernetes](https://kubernetes.io/) an open source Orchestrator for your microservices/containers which was Google project 
 Borg before it became what it is today. 
 
 If you are interested in growth of Kubernetes, here are some facts.
 
 [Rise Of Kubernetes](https://www.cncf.io/blog/2018/08/29/cncf-survey-use-of-cloud-native-technologies-in-production-has-grown-over-200-percent/)
 
-So just wear a God Hat and lets create a human-as-a-deployment.
+So just wear a God Hat and lets create a **human-as-a-deployment**.
