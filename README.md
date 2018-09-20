@@ -83,7 +83,9 @@ spec:
       - name: init-myservice
         image: busybox
         command: ['sh', '-c', 'until nslookup myservice; do echo waiting for myservice; sleep 2; done;']
+```
 
+```
 ---
 kind: MilkywayService
 apiVersion: v21
