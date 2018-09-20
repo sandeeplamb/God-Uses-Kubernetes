@@ -29,7 +29,7 @@ https://www.cncf.io/blog/2018/08/29/cncf-survey-use-of-cloud-native-technologies
 
 So just wear a God Hat and lets create a human-as-a-deployment.
 
-`
+```
 ---
 apiVersion: milkyway/earthv2
 kind: Reincarnation
@@ -94,4 +94,4 @@ spec:
   - planetProtocol: Earth
     lifePort: 100
     targetYearsAlivePort: 87
-`
+```
