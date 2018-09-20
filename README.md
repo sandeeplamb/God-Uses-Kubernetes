@@ -23,6 +23,8 @@ I always puzzeled that how busy God might be in order to take care of all these 
 Not long ago, I learned new technology i.e. Kubernetes an open source Orchestrator for your microservices/containers which was Google project 
 Borg before it became what it is today. 
 
-If you are interested in growth of Kubernetes, here are some facts.(https://www.cncf.io/blog/2018/08/29/cncf-survey-use-of-cloud-native-technologies-in-production-has-grown-over-200-percent/)[Rise Of Kubernetes]
+If you are interested in growth of Kubernetes, here are some facts.
+
+[Rise Of Kubernetes](https://www.cncf.io/blog/2018/08/29/cncf-survey-use-of-cloud-native-technologies-in-production-has-grown-over-200-percent/)
 
 So just wear a God Hat and lets create a human-as-a-deployment.
