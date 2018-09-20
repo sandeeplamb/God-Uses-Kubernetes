@@ -28,6 +28,8 @@ If you are interested in growth of Kubernetes, here are some facts.
 
 So just wear a God Hat and lets create a **human-as-a-deployment**.
 
+# The Original LifeCycle - Life - How God might be managing?
+
 ## Human-Conciousness-Storage
 
 As humans lives-dies-repeat in a cycle and his conciousness of all life is accessible in any life, God must be using some sort of persistance storage.
@@ -88,5 +90,6 @@ All this can be done in Kubernetes using deployment rollback, pause, scale up, s
 
 Just Deploy and Forget.
 
-## More Analogies
+## Human-Service
 
+Fine, God can create the human-deployment but how to access them when they are 7 billion
