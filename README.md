@@ -32,7 +32,7 @@ So just wear a God Hat and lets create a **human-as-a-deployment**.
 
 As humans lives-dies-repeat in a cycle and his conciousness of all life is accessible in any life, God must be using some sort of persistance storage.
 
-And this storage must be **retained** after every time human dies, but if want we can access it later or bound it to same human in other life.
+And this storage must be **retained** after every time human dies, but if we want, we can access it later or bound it to same human in other life.
 
 Kubernetes have same concept of [Storage Class](https://kubernetes.io/docs/concepts/storage/storage-classes/), [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) and [Persistent Volume Claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims).
 
@@ -46,7 +46,7 @@ The Delete policy, on the other hand, deletes the underlying storage
 
 Retain policy will retain the data even after PVC is released.
 
-**God might be using Retain policy and in case on non-humans Recycle policy**
+**God might be using Retain policy and in case of non-humans Recycle policy**
 
 **Persistent Volume Claims** is a way to consume the PV created above. It may ask the Storage Class to be used or accessModes to access the data.
 
@@ -66,7 +66,7 @@ Kubernetes use secrets to store some secret info.
 
 Secrets can be mount inside a container using environment variables or volumes.
 
-If you mount secrets as volumes, eventual change in secret will happen if in middle of deployment you change the values of secrets. There is no need to delete the whole deployment. These can be changed on the fly.
+If you mount secrets as volumes, eventual change in secret will happen if after deployment you want to change the values of secrets. There is no need to delete the whole deployment. In case of God, humans These can be changed on the fly.
 
 God have more reasons to use them while deplpoying humans.
 
@@ -78,4 +78,15 @@ God might be using them and mount it using Volumes in a human Deployment.
 
 ## Human-Deployment
 
-This is the coolest part
+This is the coolest part.
+
+In Kubernetes, deployment creates a replica-set which watches the current state of deployment to the desired state. And if current state changes, deployment will bring with the help of replica-set to desired state. The desired state is defined in deployment manifest.
+
+Say in case of humans, God set desired state to have 3 containers in a POD each for mother,father and sibling. But later on, their parents have one more kid, the desired state changes to 4 containers or if one of parents dies, desired state changes to 2. In this case,replica set will take care of things to bring back right amount of containers up and running.
+
+All this can be done in Kubernetes using deployment rollback, pause, scale up, scale down with minimum of godly-like-efforts.
+
+Just Deploy and Forgot.
+
+## More Analogies
+
