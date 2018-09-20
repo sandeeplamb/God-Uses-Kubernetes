@@ -1,0 +1,70 @@
+---
+apiVersion: milkyway/earthv2
+kind: Reincarnation
+metadata:
+  name: human-deployment
+  labels:
+    species: homosapiens
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      species: homosapiens
+  template:
+    metadata:
+      labels:
+        species: homosapiens
+    spec:
+      containers:
+      - name: human
+        image: human:1.7.9
+        env:
+        - name: DATE_OF_BIRTH
+          value: "mother"
+        - name: FATHER_NAME
+          value: "father"
+        - name: FAMILY_LAST_NAME
+          value: "LAST_NAME"
+        - name: COUNTRY_BORN
+          value: "India"
+        args:
+        - /bin/sh
+        - -c
+        - touch /tmp/healthy; sleep 6days; rm -rf /tmp/healthy; sleep 6days
+        livenessProbe:
+          exec:
+            command:
+            - cat
+            - /tmp/healthy
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        readinessProbe:
+          exec:
+            command:
+            - cat
+            - /tmp/healthy
+         initialDelaySeconds: 5
+         periodSeconds: 5
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: human_memory_for_one_life
+          mountPath: /human/mind
+        - name: human_secret_deploy
+          mountPath: /human/secrets
+        - name: human_configMap_Deploy
+          mountPath: /human/configMaps
+      volumes:
+      - name: human_memory_for_one_life
+        persistentVolumeClaim:
+          claimName: human-pvc
+      - name: human_secret_deploy
+        secret:
+          secretName: human_secret
+      - name: human_configMap_Deploy
+        configMap:
+          name: human-configMap
+      initContainers:
+      - name: init-baby-human
+        image: babybox:v2
+        command: ['sh', '-c', 'until baby 9MonthsNotOver; do echo waiting for birth; sleep 2; done;']

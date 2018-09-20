@@ -1,0 +1,27 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  labels:
+    type: godly
+  name: human-pv
+spec:
+  storageClassName: humane
+  capacity:
+    storage: 2Pi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/human/mind"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: human-pvc
+spec:
+  storageClassName: humane
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Ti

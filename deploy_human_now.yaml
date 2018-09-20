@@ -1,0 +1,120 @@
+---
+apiVersion: v1
+data:
+  human_money.key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBdXhOUk13akk0WklteFlzWEU0ekF5WGFxa1BIdVVjMHgyRE5HaWhnbzN5UXVmV0FnCnZiN0wxbnBaM0pvQzNpTHI4K1FWQm0yaVY3WU1UcVVBL2RVbUR2VUtLWUkvejV3RFdkWUtsZnJNTEhJNHpQT20Kc2hTaC9OcUhjSVE0cmhOME5PeFNUTVZlcFlmeFJxcHNtRStBUFd5Ri9yWGNXb3l2eWYybi90TVFjQS9rSnZhTQo2QkRJRjJ6REFWUlo5c0l4TEs1YzNEczRxT2RIODRTYUR2NUlCaHFkbllEeEM1dk00OTlxTXBFbWdlcXpRTDIvCmdzdzB6amRFWmYyYmpST1FMakdnckZpaUFzQmF5NkEwci84QW5pRG5CaTI5bTlzZVlYbVZSZ2xvaE5nZE91WHkKZ3lGd05iYUtOUThweFpTWU9sNWE2dUZpUSs2U0dqRDBEN1ZIZHdJREFRQUJBb0lCQUNiejJMNTFuODVJTGthSAp0YUJlZUczNmhYMTB3cGpKencwamNCYWsvUzJwVFB6U0hUOGxFVEJ4ZlhDUHFQVXo5RWx1UG1wK1BZVmg1S0lqCmZWZGRJSFdRMURMY2Fna0NoVGdaZDA3UFQrQVpVSFpzYlZNN05KZC9zUi9laUNiRzZqVnkxNWdncUpweStld3EKNUQyNm9Bc3FJNlJyblp4Rkd2MUdFY3JmaTlhcFBSYXZ6bEZyeTFER0VuOTdiNkJGbUYyOGJjbUloQUIwU041cQpLeUJWNlZxNE1XOWNiVkJEK1BHWXpYTndkejBqZDVMeHJaVkowZ3U5U2JNQnArbEZsS0FBYUtMQzNQQW9zcmh3CkJ6RXhKK25aSWFNVnVNa3M2Tmd1bHl2QWs3ZUt2MklKMkhsTDNqbkFmRllCbTZNcUU2V05GTGVMem5DNm93VE8Kckxob016RUNnWUVBNllSOU5IYm5oWFNXeDJnS08yT2MrbEVjOFFSUExZdndYTVJZREtFOXBOQndsMUx1bVdpMgpScXd6cHp1eE1pMnRUWmhuNFEzWlE3b3ZoUHpsWWR2TFp4RTdFQXlQMTR5OXJQV1ZjZWZxeWthNXhpczk2YXdpCmlKVVhnL0wyMWViT294WnNpNXJDRFJxRkt0aDVYSWF1aVArd1N1YjNCUnRSZU5LcVJmRytub3NDZ1lFQXpSWXIKWEJpUzhOVGNtWnJCQ1p0RHF5N0YySW8vNk9CbTBRVUUrakN3RHpmaTV2aG50TytaNWdPMTFiaEs4dnhhdVhoSgpRSmRuVjNxZmM4T3VMUnNaSmxnd0pYdHZ6SGZIM2xRTzVTQ0xnWEFiNlB2UkJyak1HR0t6REYyTG4yalRJVzRhCmJjbzh6WElKNWsvNnZOVzhLL29FNFJEWm9WS2R0Q3hLem8wN0pFVUNnWUVBNlRGN2J2Y0d3UWpxd1hzdUxKeVAKV0pIRDJ4TzRsZjFYTE95T0dSNnoxbkNvM3hUY1hLcHF6Q3lPOElQMXNleFhVbFBOK0xyQnFwYTFlWktxNW94OQpsUkZwNzk3N2pmOW9NdDZVUE1taWVCa2t6N2JDL3lUODMzUXpwWHJ0OERHclRNWEo0NmZKL1Jmc3dCcXBKekwvCi9LT0p3MkxlYjJVV2VSZTNIbDRKUTMwQ2dZQTlVYktYTDdYSGtpMS9NOWtoMFMyVFlrRy9jOTZWOTNwbVpwVE4KWlg5T25Zd1hPUkJ3OWU3UzZpc1ZBcXhPS0l2THhwNUlWTHlPV0ZpU21XQmJsaTJYM0doUTNLNVp1VHFtVEFYRQpGazMvM3BCSndma0doSHhwa2lFc3drOTcwekRGWHhGQjRHVDduR3cvVTR5SnAzSkN4OWRybjhraVJmeG5JWk1nClhQUGc3UUtCZ0VNd2ovS2syVWZrYjN3RDltTXYyMXJUL09lRk1NZk5hVUpUUklxc0pFeWNFbWN1K2ZrUDdPY2MKUW9ibXJiVTNDZDZJV25LZ3VLdXU0cm9iWjhhVDZaWVRqMkZ1NUZuNzJockltRHQ3SXlyb3doTktFckc3cUZNMgpSSXRwaWc5T0p4R1VRSjB3dCtsU1N0Mm9LRUdOa0Fmakdsb1haRW9TK0xZYitNNnpVdjB5Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+  human_money.cert: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN0RENDQVp3Q0NRRFdmN1VYTUp4cytEQU5CZ2txaGtpRzl3MEJBUXNGQURBY01Sb3dHQVlEVlFRRERCRjMKZDNjdWMzUmhjaTFzYjNKa0xtTnZiVEFlRncweE9EQTFNVFF5TURRNU5EQmFGdzB5T0RBMU1URXlNRFE1TkRCYQpNQnd4R2pBWUJnTlZCQU1NRVhkM2R5NXpkR0Z5TFd4dmNtUXVZMjl0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGCkFBT0NBUThBTUlJQkNnS0NBUUVBdXhOUk13akk0WklteFlzWEU0ekF5WGFxa1BIdVVjMHgyRE5HaWhnbzN5UXUKZldBZ3ZiN0wxbnBaM0pvQzNpTHI4K1FWQm0yaVY3WU1UcVVBL2RVbUR2VUtLWUkvejV3RFdkWUtsZnJNTEhJNAp6UE9tc2hTaC9OcUhjSVE0cmhOME5PeFNUTVZlcFlmeFJxcHNtRStBUFd5Ri9yWGNXb3l2eWYybi90TVFjQS9rCkp2YU02QkRJRjJ6REFWUlo5c0l4TEs1YzNEczRxT2RIODRTYUR2NUlCaHFkbllEeEM1dk00OTlxTXBFbWdlcXoKUUwyL2dzdzB6amRFWmYyYmpST1FMakdnckZpaUFzQmF5NkEwci84QW5pRG5CaTI5bTlzZVlYbVZSZ2xvaE5nZApPdVh5Z3lGd05iYUtOUThweFpTWU9sNWE2dUZpUSs2U0dqRDBEN1ZIZHdJREFRQUJNQTBHQ1NxR1NJYjNEUUVCCkN3VUFBNElCQVFDc3dBVVdta3JvZ3BjaElFTFBUcjd3aUVidkV0V1ZIOGF1SVUwbFFyTzA1enk1emo0TWVlQ2YKWnM0RXpVVDFMbXk5L3VVUVlnQTVmSVIvOThHTHRUakFNbDVmUzNFQ1p3OGt2S3VtTEdwWjljTmJTVUQrZG5mLwpDL3RNUElOV0J5bUEzeVlsTUlTUE5Nc2RiY3ZWdkxOQVpZRFAyb0luK3lVdkgyUHhqejYwWHhvOElDdVZoODdhCjNVY2tHYkZYczFyK1dBRlVld3c4QUUvNVQ1QVlZeFQ2WGVQc2FLelFCL1p6bm42QytCZDZ6V3BBZzN3cjA5SjkKaXZlYzAzaS96NnZlb3phTk9nNmQzWmxiMC9uWVoxbW9ERGhGWmpzTXJhd2VydHdOSU5DYjR0TUJXRkxYV0NISAo5ZnFlRWM3aERFamxRK0VlUXR1amZhR1gwNFkzOWlhbwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  human_memory_password: Zm9vCg==
+kind: Secret
+metadata:
+  name: human_secret
+---
+apiVersion: v1
+data:
+  Partners: 1
+  Kids: 3
+  Siblings: 4
+  Lucky: no
+  Healthy: yes
+  AgeLive: 89
+  Business: yes
+  Millionaire: yes
+kind: ConfigMap
+metadata:
+  name: human-configMap
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  labels:
+    type: godly
+  name: human-pv
+spec:
+  storageClassName: humane
+  capacity:
+    storage: 2Pi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/human/mind"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: human-pvc
+spec:
+  storageClassName: humane
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Ti
+---
+apiVersion: milkyway/earthv2
+kind: Reincarnation
+metadata:
+  name: human-deployment
+  labels:
+    species: homosapiens
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      species: homosapiens
+  template:
+    metadata:
+      labels:
+        species: homosapiens
+    spec:
+      containers:
+      - name: human
+        image: human:1.7.9
+        env:
+        - name: DATE_OF_BIRTH
+          value: "mother"
+        - name: FATHER_NAME
+          value: "father"
+        - name: FAMILY_LAST_NAME
+          value: "LAST_NAME"
+        - name: COUNTRY_BORN
+          value: "India"
+        args:
+        - /bin/sh
+        - -c
+        - touch /tmp/healthy; sleep 6days; rm -rf /tmp/healthy; sleep 6days
+        livenessProbe:
+          exec:
+            command:
+            - cat
+            - /tmp/healthy
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        readinessProbe:
+          exec:
+            command:
+            - cat
+            - /tmp/healthy
+         initialDelaySeconds: 5
+         periodSeconds: 5
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: human_memory_for_one_life
+          mountPath: /human/mind
+        - name: human_secret_deploy
+          mountPath: /human/secrets
+        - name: human_configMap_Deploy
+          mountPath: /human/configMaps
+      volumes:
+      - name: human_memory_for_one_life
+        persistentVolumeClaim:
+          claimName: human-pvc
+      - name: human_secret_deploy
+        secret:
+          secretName: human_secret
+      - name: human_configMap_Deploy
+        configMap:
+          name: human-configMap
+      initContainers:
+      - name: init-baby-human
+        image: babybox:v2
+        command: ['sh', '-c', 'until baby 9MonthsNotOver; do echo waiting for birth; sleep 2; done;']

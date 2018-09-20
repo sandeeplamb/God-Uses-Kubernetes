@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+data:
+  Partners: 1
+  Kids: 3
+  Siblings: 4
+  Lucky: no
+  Healthy: yes
+  AgeLive: 89
+  Business: yes
+  Millionaire: yes
+kind: ConfigMap
+metadata:
+  name: human-configMap
