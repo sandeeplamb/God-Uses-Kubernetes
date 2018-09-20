@@ -86,7 +86,7 @@ Say in case of humans, God set desired state to have 3 containers in a POD each 
 
 All this can be done in Kubernetes using deployment rollback, pause, scale up, scale down with minimum of godly-like-efforts.
 
-Just Deploy and Forgot.
+Just Deploy and Forget.
 
 ## More Analogies
 
