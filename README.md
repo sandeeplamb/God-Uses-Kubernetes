@@ -34,12 +34,48 @@ As humans lives-dies-repeat in a cycle and his conciousness of all life is acces
 
 And this storage must be **retained** after every time human dies, but if want we can access it later or bound it to same human in other life.
 
-Kubernetes have same concept of Storage Class, Persistent Volume and Persistent Volume Claim.
+Kubernetes have same concept of [Storage Class](https://kubernetes.io/docs/concepts/storage/storage-classes/), [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) and [Persistent Volume Claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims).
+
+**Storage Classes** are used to do dynamically provision Persistent Volumes.
+
+**Persistent Volumes** used to store data. There is concept of persistentVolumeReclaimPolicy which can be either Recycle, Retain or Delete.
+
+Recycle policy, it deletes the volume’s contents and makes the volume available to be claimed again. This way,the PersistentVolume can be reused multiple times by different PersistentVolume-Claims and different pods
+
+The Delete policy, on the other hand, deletes the underlying storage
+
+Retain policy will retain the data even after PVC is released.
+
+**God might be using Retain policy and in case on non-humans Recycle policy**
+
+**Persistent Volume Claims** is a way to consume the PV created above. It may ask the Storage Class to be used or accessModes to access the data.
+
+**Looks God is using them consistently.**
 
 ## Human-Environment-Variables
 
+These are the values inside the Pod containers which normally remains constant and hardly changes onces the container starts.
+
+We can define them in Deployment manifests.
+
+There is strong point to use them by GOD for human variables which God defines only once i.e. like date-of-birth, father_name, mother_name etc.
+
 ## Human-Secrets
+
+Kubernetes use secrets to store some secret info.
+
+Secrets can be mount inside a container using environment variables or volumes.
+
+If you mount secrets as volumes, eventual change in secret will happen if in middle of deployment you change the values of secrets. There is no need to delete the whole deployment. These can be changed on the fly.
+
+God have more reasons to use them while deplpoying humans.
 
 ## Human-ConfigMaps
 
+ConfigMaps unless environment variables are the values that one might want to change as per the needs during lifecycle of deployment.
+
+God might be using them and mount it using Volumes in a human Deployment.
+
 ## Human-Deployment
+
+This is the coolest part
