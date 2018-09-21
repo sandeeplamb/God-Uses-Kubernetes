@@ -93,3 +93,15 @@ Just Deploy and Forget.
 ## Human-Service
 
 Fine, God can create the human-deployment but how to access them when they are 7 billion
+
+## Human-DaemonSet
+
+The concept of Parallel-Universe says there is exact replica of you in another Univerese.
+
+In case of Kubernetes, Pods can run in one node or 2 nodes decided by scheduler. 
+
+For example, if there are 5 worker nodes and you have a deployment with 1 container. When Kubernetes schedules the deployment pod, this pod will be scheduled to only 1 node. But there can be circumstances where you want to run this pod in every possible nodes of a cluster.
+
+Here comes the DaemonSet Deployment. You create a daeomonset and Kubernetes will make sure every node have your pod running.
+
+Same like you have exact replica of yourself in every Universe.
