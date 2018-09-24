@@ -56,27 +56,33 @@ Retain policy will retain the data even after PVC is released.
 
 ## Human-Environment-Variables
 
-These are the values inside the Pod containers which normally remains constant and hardly changes onces the container starts.
+These are the values inside the Pod containers which normally remains constant and hardly changes once the pod/container starts.
 
 We can define them in Deployment manifests.
 
-There is strong point to use them by GOD for human variables which God defines only once i.e. like date-of-birth, father_name, mother_name etc.
+There is strong point to use them by GOD  as some human-variables must be defined only once i.e. like date-of-birth, father_name, mother_name etc.
 
 ## Human-Secrets
 
-Kubernetes use secrets to store some secret info.
+Kubernetes use secrets to store secret info.
 
-Secrets can be mount inside a container using environment variables or volumes.
+Secrets can be mounted inside a container using environment variables or volumes.
 
-If you mount secrets as volumes, eventual change in secret will happen if after deployment you want to change the values of secrets. There is no need to delete the whole deployment. In case of God, humans These can be changed on the fly.
+If you mount secrets as volumes, eventual change in secret will happen if after deployment you want to change the values of secrets. There is no need to delete the whole deployment. 
 
-God have more reasons to use them while deplpoying humans.
+In case of humans, God dont need to kill a person if he wants to change the luck, job, spouses, kids etc. He just need to update the config with new details and thats it. Person have now totally different chosen path.
 
 ## Human-ConfigMaps
 
 ConfigMaps unless environment variables are the values that one might want to change as per the needs during lifecycle of deployment.
 
-God might be using them and mount it using Volumes in a human Deployment.
+God will be mounting ConfigMaps using Volumes in a human Deployment.
+
+Very interesting property of ConfigMaps is the actual size of ConfigMap can not be more than 1MB.
+
+In case of human-deployment, we have seen that there is a limit on every circumstances, abilities that we can perform.
+
+Changing size of 1MB is not impossible but can be customised. And same with God, if he wants he can increase the capabilites of certain human. Just config management for him.
 
 ## Human-Deployment
 
@@ -92,7 +98,17 @@ Just Deploy and Forget.
 
 ## Human-Service
 
-Fine, God can create the human-deployment but how to access them when they are 7 billion
+Fine, God can create the human-deployment but how to access them when they are 7 billion humans and keeps on increasing.
+
+There are 3 types of services that Kubernetes offers - ClusterIP, NodePort and LoadBalancer and the type can be changed at any point of time in the process.
+
+You can start with ClusterIP service and then can change to NodePort and ultimately to give access to whole world, can make it a LoadBalancer type.
+
+In case of God, he starts with ClusterIP - access only to Parents i.e. local access.
+
+Then changes to NodePort means human takes cares of his own responsibility. Parents not needed.
+
+And then when human dies or get Nirvana, make the service type to LoadBalancer. Human is accessible from everywhere.
 
 ## Human-DaemonSet
 
@@ -105,3 +121,11 @@ For example, if there are 5 worker nodes and you have a deployment with 1 contai
 Here comes the DaemonSet Deployment. You create a daeomonset and Kubernetes will make sure every node have your pod running.
 
 Same like you have exact replica of yourself in every Universe.
+
+## Monitoring
+
+With all this, God must need a DashBoard with access of all metrics important to him.
+
+Kubernetes provide a default DashBoard but we can create our own as per our taste. You can do everything from Dashboard and on the top can see all metrics too.
+
+God have his own Monitoring.
