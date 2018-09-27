@@ -112,15 +112,21 @@ And then when human dies or get Nirvana, make the service type to LoadBalancer. 
 
 ## Human-DaemonSet
 
-The concept of Parallel-Universe says there is exact replica of you in another Univerese.
+The concept of Parallel-Universe says there is exact replica of you in another Univerese and the environment or circumstances can be totally different.
 
 In case of Kubernetes, Pods can run in one node or 2 nodes decided by scheduler. 
 
 For example, if there are 5 worker nodes and you have a deployment with 1 container. When Kubernetes schedules the deployment pod, this pod will be scheduled to only 1 node. But there can be circumstances where you want to run this pod in every possible nodes of a cluster.
 
-Here comes the DaemonSet Deployment. You create a daeomonset and Kubernetes will make sure every node have your pod running.
+Here comes the DaemonSet Deployment. You create a daeomonset and Kubernetes will make sure every node have your pod running. And every node have different resources available at given time than the other nodes in cluster.
 
-Same like you have exact replica of yourself in every Universe.
+Same like you have exact replica of yourself in every Universe but may not be in same circumstances.
+
+## Custom-Resource-Definitions CRD's
+
+So if you have special usecase and Kubernetes native resources are not enough for you to use, Kubernetes loose coupling helps users to create own scheduler, custom-resources to make solution Kubernetes native as per the needs.
+
+So where God might be using CRD's. For God, if you are concious enough you can create your own way to acheive your goals. Differnet religions in world are just CRD's to make customized solution but with the help of Kubernetes or God.
 
 ## Monitoring
 
