@@ -128,10 +128,3 @@ So if you have special usecase and Kubernetes native resources are not enough fo
 
 So where God might be using CRD's. For God, if you are concious enough you can create your own way to acheive your goals. Differnet religions in world are just CRD's to make customized solution but with the help of Kubernetes or God.
 
-## Monitoring
-
-With all this, God must need a DashBoard with access of all metrics important to him.
-
-Kubernetes provide a default DashBoard but we can create our own as per our taste. You can do everything from Dashboard and on the top can see all metrics too.
-
-God have his own Monitoring.
