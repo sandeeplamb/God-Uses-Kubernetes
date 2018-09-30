@@ -1,8 +1,8 @@
 # God must be using Kubernetes !!
 
-Gods must be using Kubernetes to manage humans birth cycle. God must be Certified-Kubernetes-Admin.
+If God is a CTO of his own company, there are hundreds of reason by CTO to use  Kubernetes to manage humans birth cycle.
 
-Lets Prove
+Lets Prove.
 
 ## What is Reincarnation
 Reincarnation is the philosophical or religious concept that an aspect of a living being starts a new life in a different physical body or form after each biological death.
